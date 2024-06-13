@@ -1,5 +1,3 @@
-// backend/src/types/types.ts
-
 export interface Product {
   code: string;
   title: string;
