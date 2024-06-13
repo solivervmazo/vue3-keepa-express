@@ -9,7 +9,7 @@ const MAX_RETRIES = 5; // Maximum number of retries before giving up
 const getRedisClient = () => {
   if (!redisClient) {
     redisClient = createClient({
-      url: "redis://default:bIpc7r8UY67mKr3AazjWvNtdqcX3aWvc@redis-10140.c302.asia-northeast1-1.gce.redns.redis-cloud.com:10140",
+      url: process.env.REDIS_URL,
       socket: {
         reconnectStrategy: (retries: number) => {
           console.error(`Redis reconnect attempt #${retries}`);
