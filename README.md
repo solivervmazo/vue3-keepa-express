@@ -4,8 +4,6 @@ This project is a [brief description of your project].
 
 ## Technologies Used
 
-- Vue.js 3
-- Vue Router
 - Express.js
 - Redis
 - Axios
