@@ -20,7 +20,7 @@ export const mockData: Record<string, Product> = {
       labels: ["Jan", "Feb", "Mar", "Apr", "May"],
       data: [5000, 4800, 4600, 4500, 4600],
     },
-    productImage: "https://example.com/product-image1.jpg",
+    productImage: "https://images.unsplash.com/photo-1560769629-975ec94e6a86",
   },
   B08JG8J5JP: {
     code: "B08JG8J5JP",
@@ -42,7 +42,8 @@ export const mockData: Record<string, Product> = {
       labels: ["Jan", "Feb", "Mar", "Apr", "May"],
       data: [6000, 5800, 5600, 5500, 5600],
     },
-    productImage: "https://example.com/product-image2.jpg",
+    productImage:
+      "https://images.unsplash.com/photo-1629198688000-71f23e745b6e",
   },
   B09XYZ1234: {
     code: "B09XYZ1234",
@@ -64,6 +65,7 @@ export const mockData: Record<string, Product> = {
       labels: ["Jan", "Feb", "Mar", "Apr", "May"],
       data: [7000, 6800, 6600, 6500, 6600],
     },
-    productImage: "https://example.com/product-image3.jpg",
+    productImage:
+      "https://images.unsplash.com/photo-1629198726018-604230bdb091",
   },
 };
