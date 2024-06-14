@@ -13,6 +13,7 @@ app.use(express.json());
 
 // Define your API endpoints
 app.get("/api/product/:id", getProduct);
+app.get("/api/summary/:id", getProduct);
 
 const startServer = async () => {
   try {

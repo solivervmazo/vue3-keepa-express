@@ -15,8 +15,9 @@ export interface Product {
     last180Days: number;
   };
   salesRankChartData: {
-    labels: String[];
-    data: Number[];
+    labels: string[];
+    data: number[];
   };
-  productImage: String;
+  productImage: string;
+  aiSummary?: string;
 }
