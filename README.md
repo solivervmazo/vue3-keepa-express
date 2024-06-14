@@ -10,6 +10,7 @@ This project is a [brief description of your project].
 - CORS
 - dotenv
 - Zod
+- OpenAi
 
 ## Installation
 
